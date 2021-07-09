@@ -14,24 +14,10 @@ For manual usage, install all dependences from root (library) project and start 
     npm run install 
     npm run start 
   
-  # Structure 
+# Structure 
  <p align="center">
   <img src="/img/flow.png" width="100%" height="100%"></p>
 
-  ```mermaid
-graph LR
-G(library files) --> F
-F((build root)) --> E
-E(dist/bundle.js as $) --> D
-C(demo/index.html) --> B
-D(demo/index.js) --> B
-DD(assets) --> B
-B((build demo)) --> A
-A[demo/out]
-A --> AA[result bundle.js] 
-A --> BB[result index.html] 
-A --> CC[assets] 
-```
   
  
 
