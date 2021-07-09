@@ -16,7 +16,7 @@ For manual usage, install all dependences from root (library) project and start 
   
   # Structure 
  <p align="center">
-  <img src="/img/flow.png" width="80%" height="80%"></p>
+  <img src="/img/flow.png" width="100%" height="100%"></p>
 
   ```mermaid
 graph LR
