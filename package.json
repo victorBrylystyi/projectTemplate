@@ -1,0 +1,24 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installWebpack": "npm install webpack webpack-cli terser-webpack-plugin --save-dev",
+    "automatic": "npm install && npm --prefix demo install && npm run start",
+    "git": "git add . && git commit -m 'first commit 3' && git push -u origin main",
+    "watch": "webpack --watch --config webpack.config.dev.js",
+    "build_lib": "webpack --config webpack.config.prod.js",
+    "build": "npm run build_lib && npm --prefix demo run build_demo",
+    "start": "npm run build && npm --prefix demo run start"
+  },
+  "keywords": [],
+  "author": "BVV",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

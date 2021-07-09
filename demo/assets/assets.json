@@ -1,0 +1,8 @@
+[
+    {
+        "type": "texture",
+        "name": "ground_color",
+        "path": "./assets/",
+        "url": "someFile.jpg"
+    }
+]
