@@ -15,8 +15,8 @@ For manual usage, install all dependences from root (library) project and start 
     npm run start 
   
   # Structure 
-
-  <img src="/img/flow.png" width="80%" height="80%">
+ <p align="center">
+  <img src="/img/flow.png" width="80%" height="80%"></p>
 
   ```mermaid
 graph LR
