@@ -5,7 +5,7 @@ Library project template. Webpack configs configured for dev and production mode
 
 # Usage
 
-For auto install and run production local server run:
+For auto install and run production local server use:
 
     npm run automatic 
     

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "installWebpack": "npm install webpack webpack-cli terser-webpack-plugin --save-dev",
     "automatic": "npm run install && npm run start",
-    "git": "git add . && git commit -m 'comands' && git push -u origin main",
+    "git": "git add . && git commit -m 'use' && git push -u origin main",
     "watch": "webpack --watch --config webpack.config.dev.js",
     "build_lib": "webpack --config webpack.config.prod.js",
     "build": "npm run build_lib && npm --prefix demo run build_demo",
